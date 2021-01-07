@@ -1,4 +1,4 @@
-import { forwardRef, InputHTMLAttributes, useImperativeHandle, useRef } from 'react';
+import { ChangeEvent, forwardRef, InputHTMLAttributes, useImperativeHandle, useRef } from 'react';
 import styled, { css } from 'styled-components';
 
 type InputStatus = 'default' | 'success' | 'warning' | 'error';
@@ -7,6 +7,7 @@ type BaseInputProps = {
   icon?: React.ReactNode;
   iconRight?: React.ReactNode;
   status?: InputStatus;
+  onChange?: (ev: ChangeEvent<HTMLInputElement>) => void;
 };
 
 type InputProps = BaseInputProps & Omit<InputHTMLAttributes<unknown>, keyof BaseInputProps>;

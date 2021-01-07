@@ -4,7 +4,6 @@ import lightTheme from './lightTheme';
 
 export const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,600;1,500&display=swap');
 
 @keyframes spin {
   0% { transform: rotate(0deg); }

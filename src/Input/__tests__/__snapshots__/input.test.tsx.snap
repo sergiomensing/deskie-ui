@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render icons 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c0 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #9395A1;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-left: 2.25rem;
+}
+
+.c0 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c0 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c0 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c0 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c1 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #9395A1;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-right: 2.25rem;
+}
+
+.c1 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c1 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c1 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c1 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 input-container "
+  >
+    <span
+      class="input-icon"
+    >
+      <span
+        data-testid="test-icon"
+      />
+    </span>
+    <input />
+  </div>
+  <div
+    class="c1 input-container "
+  >
+    <input />
+    <span
+      class="input-icon input-icon-right"
+    >
+      <span
+        data-testid="test-icon-right"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Input should support different statuses 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c0 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #9395A1;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.c0 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c0 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c0 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c0 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c1 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #FF754C;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.c1 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c1 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c1 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c1 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c2 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #7FBA7A;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.c2 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c2 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c2 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c2 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c3 input {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font-weight: 400;
+  font: inherit;
+  border: 1px solid #FFCE73;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.c3 input:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c3 .input-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c3 .input-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c3 .input-icon-right {
+  left: initial;
+  right: 0.75rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 input-container "
+  >
+    <input />
+  </div>
+  <div
+    class="c1 input-container "
+  >
+    <input />
+  </div>
+  <div
+    class="c2 input-container "
+  >
+    <input />
+  </div>
+  <div
+    class="c3 input-container "
+  >
+    <input />
+  </div>
+</div>
+`;

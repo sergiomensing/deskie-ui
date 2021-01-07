@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Capacity should fill svg ring with capacity value 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .capacity-label {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="28"
+      style="transform: rotate(-90deg);"
+      width="28"
+    >
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#7fba7a"
+        stroke-dasharray="62.83185307179586 62.83185307179586"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 62.83185307179586;"
+      />
+    </svg>
+  </div>
+  <div
+    class="c0 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="28"
+      style="transform: rotate(-90deg);"
+      width="28"
+    >
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#7fba7a"
+        stroke-dasharray="62.83185307179586 62.83185307179586"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 50.26548245743669;"
+      />
+    </svg>
+  </div>
+  <div
+    class="c0 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="28"
+      style="transform: rotate(-90deg);"
+      width="28"
+    >
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#ffce73"
+        stroke-dasharray="62.83185307179586 62.83185307179586"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 12.566370614359172;"
+      />
+    </svg>
+  </div>
+  <div
+    class="c0 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="28"
+      style="transform: rotate(-90deg);"
+      width="28"
+    >
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#ff754c"
+        stroke-dasharray="62.83185307179586 62.83185307179586"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 0;"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Capacity should support all sizes 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .capacity-label {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 .capacity-label {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+.c1 .capacity-label {
+  position: absolute;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="28"
+      style="transform: rotate(-90deg);"
+      width="28"
+    >
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="14"
+        cy="14"
+        fill="transparent"
+        r="10"
+        stroke="#7fba7a"
+        stroke-dasharray="62.83185307179586 62.83185307179586"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 31.41592653589793;"
+      />
+    </svg>
+  </div>
+  <div
+    class="c1 capacity"
+  >
+    <svg
+      class="capacity-ring"
+      height="48"
+      style="transform: rotate(-90deg);"
+      width="48"
+    >
+      <circle
+        cx="24"
+        cy="24"
+        fill="transparent"
+        r="20"
+        stroke="#eeeeee"
+        stroke-width="4"
+      />
+      <circle
+        cx="24"
+        cy="24"
+        fill="transparent"
+        r="20"
+        stroke="#7fba7a"
+        stroke-dasharray="125.66370614359172 125.66370614359172"
+        stroke-linecap="round"
+        stroke-width="4"
+        style="stroke-dashoffset: 62.83185307179586;"
+      />
+    </svg>
+  </div>
+</div>
+`;

@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render <span> element in the default 1`] = `
+.c0 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #11142D;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    test-value
+  </span>
+</div>
+`;
+
+exports[`Text should render the correct HTML tag 1`] = `
+.c0 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  font-family: 'Poppins',sans-serif;
+  color: #11142D;
+}
+
+.c1 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+  color: #11142D;
+}
+
+.c2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #11142D;
+}
+
+.c3 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #11142D;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #11142D;
+}
+
+.c5 {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #11142D;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <h1
+    class="c0"
+  >
+    test-value-h1
+  </h1>
+  <h2
+    class="c1"
+  >
+    test-value-h2
+  </h2>
+  <h3
+    class="c2"
+  >
+    test-value-h3
+  </h3>
+  <p
+    class="c3"
+  >
+    test-value-paragraph
+  </p>
+  <span
+    class="c4"
+  >
+    test-value-bold
+  </span>
+  <span
+    class="c5"
+  >
+    test-value-small
+  </span>
+</div>
+`;
+
+exports[`Text should work with different appearances 1`] = `
+.c0 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #11142D;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #9395A1;
+}
+
+.c2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #D3D4DD;
+}
+
+.c3 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #FF754C;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #FFCE73;
+}
+
+.c5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #7FBA7A;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    test-value-default
+  </span>
+  <span
+    class="c1"
+  >
+    test-value-secondary
+  </span>
+  <span
+    class="c2"
+  >
+    test-value-faded
+  </span>
+  <span
+    class="c3"
+  >
+    test-value-error
+  </span>
+  <span
+    class="c4"
+  >
+    test-value-warning
+  </span>
+  <span
+    class="c5"
+  >
+    test-value-success
+  </span>
+</div>
+`;

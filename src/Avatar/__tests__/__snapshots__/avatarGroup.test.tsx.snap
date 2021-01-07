@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Group should can differ in direction 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c0 > * + * {
+  margin-left: 0.5rem;
+}
+
+.c0 .avatar-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.c0 .avatar-initials {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.c0 .avatarGroup-additional {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: #F7F7FD;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #11142D;
+  font-weight: 600;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.c2 .avatar-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.c2 .avatar-initials {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.c2 .avatarGroup-additional {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: #F7F7FD;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #11142D;
+  font-weight: 600;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 > *:first-child {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .avatar-initials {
+  color: #F7F7FD;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c1 .avatar-label {
+  margin-left: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 .avatar-text {
+  font-size: 0.875rem;
+  color: #11142D;
+  font-weight: 500;
+}
+
+.c1 .avatar-subtext {
+  font-size: 0.8125rem;
+  color: #9395A1;
+  margin-top: 0.25rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 avatarGroup"
+  >
+    <div
+      class="c1 avatar "
+    >
+      <div
+        class="avatar-initials"
+        style="background-color: rgb(250, 82, 82);"
+      >
+        TV
+      </div>
+    </div>
+    <div
+      class="c1 avatar "
+    >
+      <div
+        class="avatar-initials"
+        style="background-color: rgb(250, 82, 82);"
+      >
+        TV
+      </div>
+    </div>
+  </div>
+  <div
+    class="c2 avatarGroup"
+  >
+    <div
+      class="c1 avatar "
+    >
+      <div
+        class="avatar-initials"
+        style="background-color: rgb(250, 82, 82);"
+      >
+        TV
+      </div>
+    </div>
+    <div
+      class="c1 avatar "
+    >
+      <div
+        class="avatar-initials"
+        style="background-color: rgb(250, 82, 82);"
+      >
+        TV
+      </div>
+    </div>
+  </div>
+</div>
+`;
