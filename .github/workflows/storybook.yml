@@ -1,8 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: ['main']
-    paths: ['src/**'] # Trigger the action only when files change in the folders defined here
+    branches: [main]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
