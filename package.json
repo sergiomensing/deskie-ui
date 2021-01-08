@@ -11,7 +11,7 @@
     "build": "tsc -p .",
     "watch": "tsc --watch -p .",
     "test": "jest --watch",
-    "clear": "rm -rf ./dist ./coverage",
+    "clear": "rm -rf ./dist ./coverage ./badges/*",
     "preCommit": "npm run clear && npm run test:badges",
     "prepublishOnly": "pinst --disable && npm run clear && npm run build && npm run test:badges",
     "postpublish": "pinst --enable",
