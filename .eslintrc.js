@@ -18,7 +18,7 @@ module.exports = {
     },
   },
   plugins: ['react', '@typescript-eslint'],
-  ignorePatterns: ['/dist'],
+  ignorePatterns: ['/dist', '/scripts'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/display-name': 'off',

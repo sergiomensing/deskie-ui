@@ -1,3 +1,6 @@
+![](./badges/coverage.svg)
+![](./badges/build.svg)
+
 ## Quick Start
 
 1. Install the package `npm install deskie-ui`.
