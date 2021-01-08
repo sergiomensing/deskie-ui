@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "build:rollup": "rollup -c",
     "build": "tsc -p .",
     "watch": "tsc --watch -p .",
