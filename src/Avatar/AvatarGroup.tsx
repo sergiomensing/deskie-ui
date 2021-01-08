@@ -1,7 +1,7 @@
 import { HTMLAttributes, PropsWithChildren, Children } from 'react';
 import styled, { css } from 'styled-components';
 
-type AvatarGroupProps = HTMLAttributes<unknown> & {
+export type AvatarGroupProps = HTMLAttributes<unknown> & {
   count?: number;
   direction?: 'horizontal' | 'vertical';
 };

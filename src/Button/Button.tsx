@@ -2,15 +2,16 @@ import { PropsWithChildren, ButtonHTMLAttributes, ReactNode } from 'react';
 import styled, { css, DefaultTheme, FlattenInterpolation, ThemeProps } from 'styled-components';
 import { colorShade } from '../utils/colors';
 
-type ButtonSize = 'default' | 'small';
-type ButtonAppearance = 'default' | 'secondary' | 'danger';
+export type ButtonSize = 'default' | 'small';
+export type ButtonAppearance = 'default' | 'secondary' | 'danger';
 
-type ButtonProps = ButtonHTMLAttributes<unknown> & {
+export type ButtonProps = ButtonHTMLAttributes<unknown> & {
   size?: ButtonSize;
   appearance?: ButtonAppearance;
   loading?: boolean;
   icon?: ReactNode;
   iconRight?: ReactNode;
+  disabled?: boolean;
 };
 
 type CssPartial = FlattenInterpolation<ThemeProps<DefaultTheme>>;

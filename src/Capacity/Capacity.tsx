@@ -2,14 +2,14 @@ import { HTMLAttributes, PropsWithChildren } from 'react';
 import styled, { css } from 'styled-components';
 import { Text } from '../index';
 
-type CapacitySize = 'default' | 'large';
-type CapacityProps = HTMLAttributes<unknown> & {
+export type CapacitySize = 'default' | 'large';
+export type CapacityProps = HTMLAttributes<unknown> & {
   size?: CapacitySize;
   capacity: number;
 };
 
 const StyledCapacity = styled.div<{ labelInside: boolean }>`
-  display: flex;
+  display: inline-flex;
   align-items: center;
 
   .capacity-label {
