@@ -13,7 +13,7 @@
     "test": "jest --watch",
     "build-docs": "build-storybook --docs -o docs",
     "clear": "rm -rf ./dist ./docs ./coverage ./badges/*",
-    "preCommit": "npm run clear && npm run test:badges && npm run build-docs",
+    "preCommit": "npm run clear && npm run test:badges && npm run build-docs && git add .",
     "prepublishOnly": "pinst --disable && npm run clear && npm run build && npm run test:badges",
     "postpublish": "pinst --enable",
     "test:coverage": "jest --coverage",
