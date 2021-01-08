@@ -12,7 +12,7 @@
     "watch": "tsc --watch -p .",
     "test": "jest --watch",
     "build-docs": "build-storybook --docs -o docs-build",
-    "clear": "rm -rf ./dist ./docs ./coverage ./badges/*",
+    "clear": "rm -rf ./dist ./coverage ./badges/*",
     "preCommit": "npm run clear && npm run test:badges && git add .",
     "prepublishOnly": "pinst --disable && npm run clear && npm run build && npm run test:badges",
     "postpublish": "pinst --enable",
