@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip should render 1`] = `
+.c0 .tooltip {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #11142d;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.3px 0.3px -4px rgba(0,0,0,0.081),0 1.1px 2px -4px rgba(0,0,0,0.119),0 5px 10px -4px rgba(0,0,0,0.2);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  opacity: 0;
+  -webkit-transition: 0.2s cubic-bezier(0.45,0,0.21,1);
+  transition: 0.2s cubic-bezier(0.45,0,0.21,1);
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 tooltip-container "
+  >
+    <span>
+      test-value-target
+    </span>
+    <div
+      data-popper-escaped="true"
+      data-popper-placement="bottom"
+      data-popper-reference-hidden="true"
+      style="position: absolute; left: 0px; top: 0px; z-index: 99; pointer-events: none; transform: translate(0px, 4px);"
+    >
+      <div
+        class="tooltip"
+      >
+        test-value
+      </div>
+    </div>
+  </div>
+</div>
+`;

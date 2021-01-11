@@ -1,14 +1,16 @@
-import { forwardRef, PropsWithChildren, SelectHTMLAttributes, useImperativeHandle, useRef } from 'react';
+import { ChangeEvent, forwardRef, PropsWithChildren, SelectHTMLAttributes, useImperativeHandle, useRef } from 'react';
 import styled, { css } from 'styled-components';
 import { KeyboardArrowDown } from '@styled-icons/material-outlined';
+
 type SelectStatus = 'default' | 'success' | 'warning' | 'error';
 
 type BaseSelectProps = {
   icon?: React.ReactNode;
   status?: SelectStatus;
+  onChange?: (ev: ChangeEvent<HTMLSelectElement>) => void;
 };
 
-type SelectProps = BaseSelectProps & Omit<SelectHTMLAttributes<unknown>, keyof BaseSelectProps>;
+export type SelectProps = BaseSelectProps & Omit<SelectHTMLAttributes<unknown>, keyof BaseSelectProps>;
 
 const StyledSelect = styled.div<{ icon: boolean; disabled: boolean; status: SelectStatus }>`
   display: flex;

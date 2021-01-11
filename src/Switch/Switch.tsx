@@ -13,7 +13,7 @@ import styled, { css } from 'styled-components';
 type BaseSwitchProps = {
   onChange?: (ev: React.ChangeEvent<HTMLInputElement>) => void;
 };
-type SwitchProps = BaseSwitchProps & Omit<InputHTMLAttributes<unknown>, keyof BaseSwitchProps | 'type'>;
+export type SwitchProps = BaseSwitchProps & Omit<InputHTMLAttributes<unknown>, keyof BaseSwitchProps | 'type'>;
 
 const StyledSwitch = styled.label<{ disabled: boolean; checked: boolean }>`
   cursor: ${(props) => (props.disabled ? 'not-allowed' : 'pointer')};

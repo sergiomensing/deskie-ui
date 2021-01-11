@@ -29,7 +29,7 @@ const StyledTooltip = styled.div<{ isOpen: boolean; placement: Placement }>`
   }
 `;
 
-type TooltipProps = HTMLAttributes<unknown> & {
+export type TooltipProps = HTMLAttributes<unknown> & {
   content: React.ReactNode;
   placement?: Placement;
 };

@@ -1,7 +1,7 @@
 import { PropsWithChildren, HTMLAttributes } from 'react';
 import styled, { css } from 'styled-components';
 
-type CheckboxGroupProps = HTMLAttributes<unknown> & { direction?: 'vertical' | 'horizontal' };
+export type CheckboxGroupProps = HTMLAttributes<unknown> & { direction?: 'vertical' | 'horizontal' };
 
 const StyledCheckboxGroup = styled.div<{ horizontal: boolean }>`
   display: flex;

@@ -2,7 +2,7 @@ import { AllHTMLAttributes, PropsWithChildren } from 'react';
 import styled from 'styled-components';
 import Text, { BaseTextProps } from './Text';
 
-type LinkProps = AllHTMLAttributes<unknown> & BaseTextProps;
+export type LinkProps = AllHTMLAttributes<unknown> & BaseTextProps;
 
 const StyledLink = styled(Text)`
   color: ${(props) => props.theme.colors.primary};

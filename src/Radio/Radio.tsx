@@ -15,7 +15,7 @@ type BaseRadioProps = {
   onChange?: (ev: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-type RadioProps = BaseRadioProps & Omit<InputHTMLAttributes<unknown>, keyof BaseRadioProps | 'type'>;
+export type RadioProps = BaseRadioProps & Omit<InputHTMLAttributes<unknown>, keyof BaseRadioProps | 'type'>;
 
 const StyledRadio = styled.label<{ disabled: boolean; checked: boolean }>`
   cursor: ${(props) => (props.disabled ? 'not-allowed' : 'pointer')};

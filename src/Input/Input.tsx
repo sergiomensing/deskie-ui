@@ -1,7 +1,7 @@
 import { ChangeEvent, forwardRef, InputHTMLAttributes, useImperativeHandle, useRef } from 'react';
 import styled, { css } from 'styled-components';
 
-type InputStatus = 'default' | 'success' | 'warning' | 'error';
+export type InputStatus = 'default' | 'success' | 'warning' | 'error';
 
 type BaseInputProps = {
   icon?: React.ReactNode;
@@ -10,7 +10,7 @@ type BaseInputProps = {
   onChange?: (ev: ChangeEvent<HTMLInputElement>) => void;
 };
 
-type InputProps = BaseInputProps & Omit<InputHTMLAttributes<unknown>, keyof BaseInputProps>;
+export type InputProps = BaseInputProps & Omit<InputHTMLAttributes<unknown>, keyof BaseInputProps>;
 
 const StyledInput = styled.div<{ icon: boolean; iconRight: boolean; disabled: boolean; status: InputStatus }>`
   display: flex;

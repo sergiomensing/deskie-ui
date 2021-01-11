@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should render correctly 1`] = `
+.c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #11142D;
+}
+
+.c0 input[type='checkbox'] {
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  background-color: transparent;
+}
+
+.c0 .switch {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c0 .switch:before {
+  content: '';
+  width: 36px;
+  height: 24px;
+  margin-right: 0.75rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #D5D5E7;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+.c0 .switch:after {
+  content: '';
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  left: 4px;
+  top: 4px;
+  position: absolute;
+  border: 2px solid transparent;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  -webkit-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+
+.c0 input:checked ~ .switch::before {
+  background: #6C5DD3;
+}
+
+.c0 input:checked ~ .switch::after {
+  -webkit-transform: translate3d(12px,0,0);
+  -ms-transform: translate3d(12px,0,0);
+  transform: translate3d(12px,0,0);
+}
+
+.c0 .switch-label {
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.c0:hover .switch::before {
+  background: #B2B3BD;
+}
+
+.c0:hover input:checked ~ .switch::before {
+  background-color: #4535B7;
+}
+
+.c0 input:focus-visible ~ .switch:before {
+  box-shadow: 0 0 0 2px #9395A1;
+}
+
+.c0 input:checked:focus-visible ~ .switch::before {
+  box-shadow: 0 0 0 2px #4535B7;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <label
+    class="c0 switch-container "
+  >
+    <input
+      type="checkbox"
+    />
+    <span
+      class="switch"
+    />
+    <span
+      class="switch-label"
+    >
+      test-value
+    </span>
+  </label>
+</div>
+`;

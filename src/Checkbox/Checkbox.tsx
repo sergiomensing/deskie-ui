@@ -14,7 +14,8 @@ import styled, { css } from 'styled-components';
 type BaseCheckboxProps = {
   onChange?: (ev: React.ChangeEvent<HTMLInputElement>) => void;
 };
-type CheckboxProps = BaseCheckboxProps & Omit<InputHTMLAttributes<unknown>, keyof BaseCheckboxProps | 'type'>;
+
+export type CheckboxProps = BaseCheckboxProps & Omit<InputHTMLAttributes<unknown>, keyof BaseCheckboxProps | 'type'>;
 
 const StyledCheckbox = styled.label<{ disabled: boolean; checked: boolean }>`
   cursor: ${(props) => (props.disabled ? 'not-allowed' : 'pointer')};

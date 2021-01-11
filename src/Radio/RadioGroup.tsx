@@ -1,7 +1,7 @@
 import { PropsWithChildren, HTMLAttributes } from 'react';
 import styled, { css } from 'styled-components';
 
-type RadioGroupProps = HTMLAttributes<unknown> & { direction?: 'vertical' | 'horizontal' };
+export type RadioGroupProps = HTMLAttributes<unknown> & { direction?: 'vertical' | 'horizontal' };
 
 const StyledRadioGroup = styled.div<{ horizontal: boolean }>`
   display: flex;

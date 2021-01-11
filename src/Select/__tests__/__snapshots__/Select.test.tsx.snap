@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render icon 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c0 select {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  border: 1px solid #9395A1;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.c0 select:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c0 .select-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c0 .select-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c0 .select-arrow {
+  left: initial;
+  right: 0.75rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 select-container "
+  >
+    <span
+      class="select-icon"
+    >
+      <span
+        data-testid="test-icon"
+      />
+    </span>
+    <select />
+    <span
+      class="select-icon select-arrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Select should support different statuses 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c0 select {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  border: 1px solid #9395A1;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-right: 2.25rem;
+}
+
+.c0 select:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c0 .select-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c0 .select-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c0 .select-arrow {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c2 select {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  border: 1px solid #FF754C;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-right: 2.25rem;
+}
+
+.c2 select:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c2 .select-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c2 .select-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c2 .select-arrow {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c3 select {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  border: 1px solid #7FBA7A;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-right: 2.25rem;
+}
+
+.c3 select:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c3 .select-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c3 .select-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c3 .select-arrow {
+  left: initial;
+  right: 0.75rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.c4 select {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  border: 1px solid #FFCE73;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  padding-right: 2.25rem;
+}
+
+.c4 select:focus {
+  border-color: #6C5DD3;
+  box-shadow: 0px 0px 0px 1px #6C5DD3;
+  outline: 0;
+}
+
+.c4 .select-icon {
+  position: absolute;
+  z-index: 2;
+  width: 1.25rem;
+  left: 0.75rem;
+}
+
+.c4 .select-icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.c4 .select-arrow {
+  left: initial;
+  right: 0.75rem;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+<div>
+  <div
+    class="c0 select-container "
+  >
+    <select />
+    <span
+      class="select-icon select-arrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="c2 select-container "
+  >
+    <select />
+    <span
+      class="select-icon select-arrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="c3 select-container "
+  >
+    <select />
+    <span
+      class="select-icon select-arrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="c4 select-container "
+  >
+    <select />
+    <span
+      class="select-icon select-arrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;

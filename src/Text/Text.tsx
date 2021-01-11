@@ -14,7 +14,7 @@ export type BaseTextProps = {
   as?: keyof JSX.IntrinsicElements;
 };
 
-type TextProps = HTMLAttributes<unknown> & BaseTextProps;
+export type TextProps = HTMLAttributes<unknown> & BaseTextProps;
 
 type TextTags = Pick<TextProps, 'p' | 'h1' | 'h2' | 'h3' | 'small' | 'b'>;
 
