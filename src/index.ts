@@ -10,4 +10,5 @@ export { Button } from './Button';
 export { Capacity } from './Capacity';
 export { Text, Link } from './Text';
 export { ThemeProvider } from './ThemeProvider';
+export { useClickAway } from './useClickAway';
 export { default as tokens } from './tokens';

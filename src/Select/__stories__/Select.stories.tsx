@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { Search, BatteryAlert } from '@styled-icons/material-outlined';
+import { Search } from '@styled-icons/material-outlined';
 import Select, { SelectProps } from '../Select';
 
 export default {
@@ -8,6 +8,7 @@ export default {
   component: Select,
   argTypes: {
     disabled: { control: 'boolean' },
+    useNative: { table: { disable: true } },
     status: {
       control: {
         type: 'inline-radio',
@@ -43,10 +44,4 @@ export const WithIcon = Template.bind({});
 WithIcon.args = {
   placeholder: 'This is a placeholder',
   icon: <Search />,
-};
-
-export const WithIconRight = Template.bind({});
-WithIconRight.args = {
-  placeholder: 'This is a placeholder',
-  iconRight: <BatteryAlert />,
 };

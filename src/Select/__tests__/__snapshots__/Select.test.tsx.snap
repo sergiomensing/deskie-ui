@@ -19,7 +19,8 @@ exports[`Select should render icon 1`] = `
   position: relative;
 }
 
-.c0 select {
+.c0 select,
+.c0 .select {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -41,7 +42,8 @@ exports[`Select should render icon 1`] = `
   padding-right: 2.25rem;
 }
 
-.c0 select:focus {
+.c0 select:focus,
+.c0 .select:focus {
   border-color: #6C5DD3;
   box-shadow: 0px 0px 0px 1px #6C5DD3;
   outline: 0;
@@ -123,7 +125,8 @@ exports[`Select should support different statuses 1`] = `
   position: relative;
 }
 
-.c0 select {
+.c0 select,
+.c0 .select {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -144,7 +147,8 @@ exports[`Select should support different statuses 1`] = `
   padding-right: 2.25rem;
 }
 
-.c0 select:focus {
+.c0 select:focus,
+.c0 .select:focus {
   border-color: #6C5DD3;
   box-shadow: 0px 0px 0px 1px #6C5DD3;
   outline: 0;
@@ -179,7 +183,8 @@ exports[`Select should support different statuses 1`] = `
   position: relative;
 }
 
-.c2 select {
+.c2 select,
+.c2 .select {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -200,7 +205,8 @@ exports[`Select should support different statuses 1`] = `
   padding-right: 2.25rem;
 }
 
-.c2 select:focus {
+.c2 select:focus,
+.c2 .select:focus {
   border-color: #6C5DD3;
   box-shadow: 0px 0px 0px 1px #6C5DD3;
   outline: 0;
@@ -235,7 +241,8 @@ exports[`Select should support different statuses 1`] = `
   position: relative;
 }
 
-.c3 select {
+.c3 select,
+.c3 .select {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -256,7 +263,8 @@ exports[`Select should support different statuses 1`] = `
   padding-right: 2.25rem;
 }
 
-.c3 select:focus {
+.c3 select:focus,
+.c3 .select:focus {
   border-color: #6C5DD3;
   box-shadow: 0px 0px 0px 1px #6C5DD3;
   outline: 0;
@@ -291,7 +299,8 @@ exports[`Select should support different statuses 1`] = `
   position: relative;
 }
 
-.c4 select {
+.c4 select,
+.c4 .select {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -312,7 +321,8 @@ exports[`Select should support different statuses 1`] = `
   padding-right: 2.25rem;
 }
 
-.c4 select:focus {
+.c4 select:focus,
+.c4 .select:focus {
   border-color: #6C5DD3;
   box-shadow: 0px 0px 0px 1px #6C5DD3;
   outline: 0;
