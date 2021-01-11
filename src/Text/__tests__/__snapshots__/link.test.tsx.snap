@@ -9,10 +9,6 @@ exports[`Link should render <a> element 1`] = `
   color: #4535B7;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <a
     class="c0"

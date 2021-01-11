@@ -112,10 +112,6 @@ exports[`Switch should render correctly 1`] = `
   box-shadow: 0 0 0 2px #4535B7;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <label
     class="c0 switch-container "

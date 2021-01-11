@@ -66,10 +66,6 @@ exports[`Select should render icon 1`] = `
   right: 0.75rem;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <div
     class="c0 select-container "
@@ -343,10 +339,6 @@ exports[`Select should support different statuses 1`] = `
 .c4 .select-arrow {
   left: initial;
   right: 0.75rem;
-}
-
-@media screen and (min-width:1024px) {
-
 }
 
 <div>

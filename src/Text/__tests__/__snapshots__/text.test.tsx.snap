@@ -8,10 +8,6 @@ exports[`Text should render <span> element in the default 1`] = `
   color: #11142D;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <span
     class="c0"
@@ -59,10 +55,6 @@ exports[`Text should render the correct HTML tag 1`] = `
   font-size: 0.8125rem;
   font-weight: 400;
   color: #11142D;
-}
-
-@media screen and (min-width:1024px) {
-
 }
 
 <div>
@@ -140,10 +132,6 @@ exports[`Text should work with different appearances 1`] = `
   font-weight: 400;
   line-height: 1.75;
   color: #7FBA7A;
-}
-
-@media screen and (min-width:1024px) {
-
 }
 
 <div>

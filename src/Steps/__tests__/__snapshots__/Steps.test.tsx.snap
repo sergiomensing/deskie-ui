@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Steps should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:after {
+  content: '';
+  width: calc(100% - 1.5rem);
+  left: 0.75rem;
+  height: 1px;
+  background: #9395A1;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.c0 .step {
+  cursor: default;
+  font-size: 13;
+  color: #B2B3BD;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #9395A1;
+  background: #F7F7FD;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.c0 .step.done {
+  cursor: pointer;
+}
+
+.c0 .step.current {
+  background: #6C5DD3;
+  border-color: #6C5DD3;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+<div>
+  <div
+    class="c0 steps "
+  >
+    <div
+      class="step current done"
+    >
+      1
+    </div>
+    <div
+      class="step  "
+    >
+      2
+    </div>
+    <div
+      class="step  "
+    >
+      3
+    </div>
+  </div>
+</div>
+`;

@@ -8,6 +8,7 @@ export { Radio } from './Radio';
 export { Tooltip } from './Tooltip';
 export { Button } from './Button';
 export { Capacity } from './Capacity';
+export { Steps } from './Steps';
 export { Text, Link } from './Text';
 export { ThemeProvider } from './ThemeProvider';
 export { useClickAway } from './useClickAway';

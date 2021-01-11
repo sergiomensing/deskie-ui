@@ -11,18 +11,6 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 
-#root {
-  /* Makeup for scrollbar on the right side. https://stackoverflow.com/a/30293718 */
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
-}
-
-/* Approximate scrollbar width */
-@media screen and (min-width: 1024px){
-  #root {
-  padding-right: 15px;
-  }
-}
 
 body {
   margin: 0;
@@ -30,7 +18,7 @@ body {
   font-weight: 400;
   font-size: 0.875rem;
   box-sizing: border-box;
-  max-width: 100vw;
+  max-width: 100%;
   background-color: ${(props) => props.theme.colors.accent1};
   overflow-x: hidden;
   color: ${(props) => props.theme.colors.foreground};

@@ -45,4 +45,10 @@ describe('Select', () => {
 
     expect(input).toHaveValue('test-value2');
   });
+
+  it('should forward ref', () => {
+    const ref = React.createRef<HTMLSelectElement>();
+    const { container } = render(<Select status="default" ref={ref} />);
+    expect(container.querySelector('select')).toEqual(ref.current);
+  });
 });

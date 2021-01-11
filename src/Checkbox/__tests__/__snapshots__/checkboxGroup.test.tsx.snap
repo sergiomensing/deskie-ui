@@ -142,10 +142,6 @@ exports[`Checkbox Group should support direction 1`] = `
   margin-top: 0.5rem;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <div
     class="c0 checkbox-group "

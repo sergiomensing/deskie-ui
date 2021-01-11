@@ -4,7 +4,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   testPathIgnorePatterns: ['/pages/', '/dist/', '/lib/'],
   collectCoverage: true,
-  coverageReporters: ['json-summary'],
+  coverageReporters: ['json-summary', 'html'],
   transform: {
     '^.+\\.tsx?$': ['babel-jest', { configFile: './tests/.babelrc.js' }],
   },

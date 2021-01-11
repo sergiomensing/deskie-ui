@@ -109,10 +109,6 @@ exports[`Checkbox should render correctly 1`] = `
   opacity: 1;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <label
     class="c0 checkbox-container "

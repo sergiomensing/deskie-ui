@@ -52,10 +52,6 @@ exports[`Button should render as "Icon Button" when there are no children but th
   height: auto;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <button
   class="c0 button button-iconOnly "
   data-testid="test-id"
@@ -130,10 +126,6 @@ exports[`Button should render icons 1`] = `
 .c0 .button-icon-right {
   margin-right: -0.25rem;
   margin-left: 0.5rem;
-}
-
-@media screen and (min-width:1024px) {
-
 }
 
 <div>
@@ -348,10 +340,6 @@ exports[`Button should support all appearances 1`] = `
   margin-left: 0.5rem;
 }
 
-@media screen and (min-width:1024px) {
-
-}
-
 <div>
   <button
     class="c0 button  "
@@ -492,10 +480,6 @@ exports[`Button should support all sizes 1`] = `
 .c1 .button-icon-right {
   margin-right: -0.25rem;
   margin-left: 0.5rem;
-}
-
-@media screen and (min-width:1024px) {
-
 }
 
 <div>
