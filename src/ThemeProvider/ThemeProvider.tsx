@@ -34,6 +34,7 @@ text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
   line-height: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 

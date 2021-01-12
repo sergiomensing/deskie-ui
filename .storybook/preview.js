@@ -20,4 +20,6 @@ const withThemeProvider = (Story, context) => {
     </ThemeProvider>
   );
 };
-export const decorators = [withThemeProvider];
+
+const withHooks = (Story) => <Story />;
+export const decorators = [withHooks, withThemeProvider];
