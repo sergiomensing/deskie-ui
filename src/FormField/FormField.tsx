@@ -8,7 +8,7 @@ export type FormFieldProps = {
   label?: string;
   hint?: string;
   validationMessage?: string;
-  validationMessageStatus: TextProps['appearance'];
+  validationMessageStatus?: TextProps['appearance'];
 };
 
 const StyledFormField = styled(Flow)``;
