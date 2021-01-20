@@ -33,6 +33,7 @@ function Flow({
   justify = 'flex-start',
   align = 'flex-start',
   className = '',
+  ...rest
 }: PropsWithChildren<FlowProps>) {
   return (
     <StyledFlow
@@ -41,6 +42,7 @@ function Flow({
       align={align}
       direction={direction}
       gap={typeof gap === 'number' ? `${gap.toString()}px` : gap}
+      {...rest}
     >
       {children}
     </StyledFlow>

@@ -1,17 +1,19 @@
-import { PropsWithChildren } from 'react';
+import { HTMLAttributes, PropsWithChildren } from 'react';
 import styled from 'styled-components';
 import { Flow } from '../Flow';
 import { Text } from '../Text';
 import { TextProps } from '../Text/Text';
 
-export type FormFieldProps = {
+export type FormFieldProps = HTMLAttributes<unknown> & {
   label?: string;
   hint?: string;
   validationMessage?: string;
   validationMessageStatus?: TextProps['appearance'];
 };
 
-const StyledFormField = styled(Flow)``;
+const StyledFormField = styled(Flow)`
+  width: 100%;
+`;
 
 function FormField({
   label,
@@ -19,9 +21,11 @@ function FormField({
   validationMessage,
   validationMessageStatus,
   children,
+  className = '',
+  ...rest
 }: PropsWithChildren<FormFieldProps>) {
   return (
-    <StyledFormField gap="0.5rem" className="formField">
+    <StyledFormField gap="0.5rem" className={`formField ${className}`} {...rest}>
       {label && (
         <Text small appearance="secondary" className="formField-label" as="label">
           {label}
